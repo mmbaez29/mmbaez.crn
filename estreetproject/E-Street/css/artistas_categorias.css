@@ -1,0 +1,670 @@
+
+
+@media only screen and (min-width: 960px){
+	
+  body{
+    background-color: rgba(163,255,220,1);
+background-color: -moz-linear-gradient(top, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+background-color: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,255,220,1)), color-stop(100%, rgba(23,176,166,1)));
+background-color: -webkit-linear-gradient(top, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+background-color: -o-linear-gradient(top, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+background-color: -ms-linear-gradient(top, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+background-color:  linear-gradient(to bottom, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3ffdc', endColorstr='#17b0a6', GradientType=0 ); 
+background-repeat: none;
+background-size: cover;
+	font-family: 'Caviar Dreams';
+}
+a{
+	   text-decoration: none;
+    }
+
+
+
+#but {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 100;
+  
+}
+
+#logo{
+  position: relative;
+  left: -350px;
+  margin: 0 auto;
+  background-image: url(../img/logo.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: 100;
+
+}
+
+#buscador {
+  float: left;
+  position: relative;
+  left: -350px;
+  top: -100px;
+  font-family: 'Caviar Dreams'
+  border: thin solid #333;
+  border-radius: 20px 0px 0px 20px;
+  width: 350px;
+  height: 30px;
+  padding:5px; 
+  margin-top: 15px;
+  margin-left: 55%;
+
+}
+#buscar {
+position: relative;
+top: -100px;
+left: -428px;
+background-image: url("../img/ico-buscador.png");
+background-size: 20px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+height: 43px;
+width: 30px;
+border-radius: 0px 20px 20px 0px;
+margin-left: -83px;
+margin-top: 15px ;
+
+
+}
+
+#login { 
+
+  position: relative;
+  left: -300px;
+  top: -100px;
+  float: left;
+  height: 50px;
+
+}
+
+#login ul li {
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+#login ul li a{
+text-decoration: none;
+color:black;
+}
+
+#capartista {
+  background-image: url(../img/web/artistacategoria.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+
+#lugarcategoria {
+  background-image: url(../img/web/menulugar_categoria.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+
+#evento_categoria {
+  background-image: url(../img/web/menueventos_categorias.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+#bajar {
+
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+}
+#bajar img{
+  margin-top: 20px;
+  height: 30px;
+
+}
+
+
+#cap h1{
+	padding-top: 250px;
+	font-size: 50px;
+}
+#cap h2{
+  font-size: 50px;
+}
+#cap p{
+  font-size: 20px;
+}
+#cap img { 
+  margin-top: 60px;
+  margin-left: 40px;
+    height: 350px;
+     }
+
+#cos { 
+
+ }
+#cos div{ 
+	float: left;
+	height: 500px;
+	width: 940px; 
+	background-color: black;
+	margin: 10px;
+}
+
+#musica {
+  background: url(../img/web/bw/musica.jpg) no-repeat;
+  background-size:cover;
+}
+#musica:hover {
+  background: url(../img/web/musica.jpg) no-repeat;
+  background-size: cover;
+}
+
+#espectaculos {
+  background: url(../img/web/bw/espectaculos.jpg) no-repeat;
+  background-size:cover;
+}
+#espectaculos:hover {
+  background: url(../img/web/espectaculos.jpg) no-repeat;
+  background-size: cover;
+}
+
+#exposiciones {
+  background: url(../img/web/bw/exposiciones.jpg) no-repeat;
+  background-size:cover;
+}
+#exposiciones:hover {
+  background: url(../img/web/exposiciones.jpg) no-repeat;
+  background-size: cover;
+}
+
+#peu{
+  height: 300px;
+  margin-top: 70px;
+
+}
+#peu h1 {
+  margin-bottom: 20px;
+}
+
+#peu div{
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#peu #contacto{
+  margin-left: 0px;
+}
+
+#siguenos{
+  float: left;
+  margin-left: -20px;
+  text-align: right;
+}
+#siguenos img{
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+
+
+#menu2 {
+
+  background-color: white;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+
+}
+#menu2 ul {
+  position: relative;
+  left: -50px;
+  margin-left: 20px;
+}
+#menu2 ul li {
+
+  float:left;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 70px;
+  padding-top: 15px;
+
+}
+
+#menu2 ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+
+}
+
+
+ #menuh {
+    	position: fixed;
+    	z-index: 300;
+    }
+    #menuh img{
+    	margin-left: 30%;
+    	height: 80px;
+
+    }
+
+    #menuh p {
+    	text-align: right;
+    	margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    .nav {
+      position:absolute;
+      width:200px;
+      height:100vh;
+      top:0;
+      left: -220px; 
+      padding-top:47px;
+      background-color: white;
+      border-right:4px solid rgba(49, 183, 188, 1);
+      transition:all .5s ease; 
+      z-index: 100;
+    }
+       /*Estilos de los li del menú*/
+       .nav__item {
+         display:block;
+         width:96%;
+         margin:0 auto;
+         line-height:2;
+         position:relative; /*Le damos una posición relativa para posteriormente añadirle el triangulo que indica que se está en la página actual del menú*/
+         background-color:transparent;
+         font-family: 'Caviar Dreams';
+         text-align:center;
+         font-size: 20px;
+         color:black;
+       }
+
+      /*Estos son los estilos de la hamburguesa del menú que abre y cierra el mismo*/
+      .menu-toogle {
+        position:absolute; /*Lo posicionamos absolutamente para poder darle una posición y poder moverlo según el menú esté abierto o cerrado*/
+        width: 35px;
+        line-height:1.1;
+        text-align:center;
+        top: 5px; /*Le damos una posición top y left en donde queramos que se encuentre la hamburguesa del menú*/
+        left: 8px; 
+        border-radius:3px;
+        background-color: rgba(49, 183, 188, 1);
+        transition: all .5s ease; /*Añadimos una transición para que realice un desplazamineto suave*/
+       
+      }
+        /*Añadimos la haburguesa y le damos unos estilos*/
+        .menu-toogle::before {
+          content:"☰";
+          font-size:32px;
+          color:white;
+        }
+
+
+        /*Estos son los estilos que le dan la funcionalidad al menú*/
+        /*El checkbox según esté activado o no hará que el menú aparezca o desaparezca*/
+        .checkbox {
+          display:none; /*Ocultamos el checkbox pues no nos interesa que se vea*/
+        }
+        .checkbox:checked ~ .nav {
+          left:0px; /*Le quitamos el left negativo para que el menú vuelva a su posición original*/
+          position:fixed; /* Fijamos el menú lateral para que se desplace cuando hagamos scroll*/
+        }
+        .checkbox:checked ~ .main-w {
+          margin-left:200px; /*Cuando el checkbox asigna un margen al contenedor principal para que se desplace junto con el menú*/
+        }
+        .checkbox:checked ~ .menu-toogle { 
+          left:208px;
+          position:fixed; /*Fijamos la hamburgues para que se desplace junto con el menú*/
+        }
+}
+
+
+
+@media only screen and (max-width: 480px)  {
+body{
+    background-color: rgba(163,255,220,1);
+background-color: -moz-linear-gradient(top, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+background-color: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,255,220,1)), color-stop(100%, rgba(23,176,166,1)));
+background-color: -webkit-linear-gradient(top, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+background-color: -o-linear-gradient(top, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+background-color: -ms-linear-gradient(top, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+background-color:  linear-gradient(to bottom, rgba(163,255,220,1) 0%, rgba(23,176,166,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3ffdc', endColorstr='#17b0a6', GradientType=0 ); 
+background-repeat: none;
+background-size: cover;
+  font-family: 'Caviar Dreams';
+}
+a{
+     text-decoration: none;
+    }
+
+
+#but {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 190px;
+  z-index: 100;
+  
+}
+
+#logo{
+  position: relative;
+  left:0px ;
+  top: 10px;
+  margin: 0 auto;
+  background-image: url(../img/logo.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: 100;
+
+}
+
+#buscador {
+  float: left;
+  position: relative;
+  left:-120px ;
+  top: 10px;
+  font-family: 'Caviar Dreams'
+  border: thin solid #333;
+  border-radius: 20px 0px 0px 20px;
+  width: 150px;
+  height: 30px;
+  padding:5px; 
+  margin-top: 15px;
+  margin-left: 55%;
+z-index: 100;
+}
+#buscar {
+position: relative;
+left:-39px;
+top: 10px;
+background-image: url("../img/ico-buscador.png");
+background-size: 20px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+height: 43px;
+width: 30px;
+border-radius: 0px 20px 20px 0px;
+margin-left: -83px;
+margin-top: 15px ;
+
+
+}
+
+#login { 
+  display: none;
+  position: relative;
+  left:160px;
+  top: 5px;
+  float: left;
+  height: 50px;
+
+}
+
+#login ul li {
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+#login ul li a{
+text-decoration: none;
+color:black;
+}
+
+
+#bajar {
+  position: relative;
+  left:-300px;
+   width: 479px; 
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+#bajar img{
+  height: 30px;
+
+}
+#capartista {
+  background-image: url(../img/web/artistacategoria.jpg);
+   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
+  position: relative;
+  top:180px;
+  left: -200px;
+  height: 250px;
+  width: 600px;
+}
+
+#lugarcategoria {
+  background-image: url(../img/web/menulugar_categoria.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
+  position: relative;
+  top:180px;
+  left: -200px;
+  height: 300px;
+  width: 600px;
+}
+
+#evento_categoria {
+  background-image: url(../img/web/menueventos_categorias.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
+  position: relative;
+  top:180px;
+  left: -200px;
+  height: 300px;
+  width: 600px;
+}
+
+
+#menu2 {
+  position: relative;
+  left: -240px;
+  top: ;
+  background-color: white;
+  height: 50px;
+  margin-bottom: 5px;
+
+}
+
+#menu2 ul li {
+
+  float:left;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 45px;
+  padding-top: 15px;
+
+}
+
+#menu2 ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+
+}
+#cos {
+  position: relative;
+  left: 20px;
+  top:;
+
+}
+#cos div{ 
+  clear: both;
+  height: 300px;
+  width: 300px; 
+  background-color: black;
+  margin: 10px;
+
+}
+
+#musica {
+  background: url(../img/web/bw/musica_m.jpg) no-repeat;
+  background-size:cover;
+}
+#musica:hover {
+  background: url(../img/web/musica_m.jpg) no-repeat;
+  background-size: cover;
+}
+
+#espectaculos {
+  background: url(../img/web/bw/espectaculos_m.jpg) no-repeat;
+  background-size:cover;
+}
+#espectaculos:hover {
+  background: url(../img/web/espectaculos_m.jpg) no-repeat;
+  background-size: cover;
+}
+
+#exposiciones {
+  background: url(../img/web/bw/exposiciones_m.jpg) no-repeat;
+  background-size:cover;
+}
+#exposiciones:hover {
+  background: url(../img/web/exposiciones_m.jpg) no-repeat;
+  background-size: cover;
+}
+
+#peu{
+  position: relative;
+  left: -240px;
+  height: 350px;
+  width: 440px;
+  margin-top: 20px;
+}
+#peu h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#peu div{
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#contacto{
+  margin: 0 auto;
+ 
+}
+
+#siguenos{
+margin-bottom: 20px;
+}
+#siguenos h1{
+position: relative;
+left: -100px;
+
+}
+#siguenos img{
+  float: left;
+  height: 60px;
+  margin-left: 15px;
+}
+
+
+ #menuh {
+      position: fixed;
+      z-index: 300;
+    }
+    	z-index: 100;
+    }
+    #menuh img{
+    	margin-left: 30%;
+    	height: 80px;
+
+    }
+
+    #menuh p {
+    	text-align: right;
+    	margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    .nav {
+      position:absolute;
+      width:200px;
+      height:100vh;
+      top:0;
+      left: -220px; 
+      padding-top:47px;
+      background-color: white;
+      border-right:4px solid rgba(49, 183, 188, 1);
+      transition:all .5s ease; 
+      z-index:100;
+    }
+       /*Estilos de los li del menú*/
+       .nav__item {
+         display:block;
+         width:96%;
+         margin:0 auto;
+         line-height:2;
+         position:relative; /*Le damos una posición relativa para posteriormente añadirle el triangulo que indica que se está en la página actual del menú*/
+         background-color:transparent;
+         font-family: 'Caviar Dreams';
+         text-align:center;
+         font-size: 20px;
+         color:black;
+       }
+
+      /*Estos son los estilos de la hamburguesa del menú que abre y cierra el mismo*/
+      .menu-toogle {
+        position:absolute; /*Lo posicionamos absolutamente para poder darle una posición y poder moverlo según el menú esté abierto o cerrado*/
+        width: 35px;
+        line-height:1.1;
+        text-align:center;
+        top: 5px; /*Le damos una posición top y left en donde queramos que se encuentre la hamburguesa del menú*/
+        left: 8px; 
+        border-radius:3px;
+        background-color: rgba(49, 183, 188, 1);
+        transition: all .5s ease; /*Añadimos una transición para que realice un desplazamineto suave*/
+       
+      }
+        /*Añadimos la haburguesa y le damos unos estilos*/
+        .menu-toogle::before {
+          content:"☰";
+          font-size:32px;
+          color:white;
+        }
+
+
+        /*Estos son los estilos que le dan la funcionalidad al menú*/
+        /*El checkbox según esté activado o no hará que el menú aparezca o desaparezca*/
+        .checkbox {
+          display:none; /*Ocultamos el checkbox pues no nos interesa que se vea*/
+        }
+        .checkbox:checked ~ .nav {
+          left:0px; /*Le quitamos el left negativo para que el menú vuelva a su posición original*/
+          position:fixed; /* Fijamos el menú lateral para que se desplace cuando hagamos scroll*/
+        }
+        .checkbox:checked ~ .main-w {
+          margin-left:200px; /*Cuando el checkbox asigna un margen al contenedor principal para que se desplace junto con el menú*/
+        }
+        .checkbox:checked ~ .menu-toogle { 
+          left:208px;
+          position:fixed; /*Fijamos la hamburgues para que se desplace junto con el menú*/
+        }
+}
